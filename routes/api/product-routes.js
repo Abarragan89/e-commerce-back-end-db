@@ -7,7 +7,9 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
-  Product.findAll().then(dbProductData => res.json(dbProductData));
+  Product.findAll({
+    // Start here, we are including other tables when we query with include Goodnight
+  }).then(dbProductData => res.json(dbProductData));
 
 });
 
