@@ -15,7 +15,7 @@
   npm i
   ```
   ## Usage
-  After running npm i, create a .env file and put your database name and credentials. Then login to mysql in the terminal and run 'SOURCE db/schema.sql' to create the database. Then exit mysql. If you would like seed data to populate your table, run 'npm seeds' to run the seeds file.  [How To Video]()
+  After running npm i, create a .env file and put your database name and credentials. Then login to mysql in the terminal and run 'SOURCE db/schema.sql' to create the database. Then exit mysql. If you would like seed data to populate your table, run 'npm seeds' to run the seeds file.  [How To Video](https://drive.google.com/file/d/1iq48Tnbmgx13xhFSRvb0-kR19_AqtsQa/view)
   ## Contribution
   Fork and make pull request
   ## Tests
